@@ -1,7 +1,6 @@
 package com.cylin.gracefulresponse.controller;
 
 
-import com.cylin.gracefulresponse.domain.dto.PersonDTO;
 import com.cylin.gracefulresponse.domain.dto.UserInfoDTO;
 import com.cylin.gracefulresponse.exception.PasswordErrorException;
 import com.cylin.gracefulresponse.exception.UserEmptyException;
@@ -10,7 +9,6 @@ import com.feiniaojin.gracefulresponse.api.ExcludeFromGracefulResponse;
 import com.feiniaojin.gracefulresponse.api.ValidationStatusCode;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

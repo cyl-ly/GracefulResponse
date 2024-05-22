@@ -1,0 +1,12 @@
+server:
+  port: 9001
+
+
+graceful-response:
+  # 响应风格设置
+  response-style: 1
+  default-error-code: 5000
+  default-error-msg: 系统异常
+  default-validate-error-code: 666
+  print-exception-in-global-advice: true
+  origin-exception-using-detail-message: true
